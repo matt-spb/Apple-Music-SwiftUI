@@ -11,6 +11,11 @@
 		D77276B92825AE68003BE1C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276B82825AE68003BE1C8 /* ContentView.swift */; };
 		D77276BB2825AE6A003BE1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77276BA2825AE6A003BE1C8 /* Assets.xcassets */; };
 		D77276BE2825AE6A003BE1C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77276BD2825AE6A003BE1C8 /* Preview Assets.xcassets */; };
+		D77276C62825BD4F003BE1C8 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276C52825BD4F003BE1C8 /* LibraryView.swift */; };
+		D77276C82825C705003BE1C8 /* EditingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276C72825C705003BE1C8 /* EditingScreen.swift */; };
+		D77276CA28269E76003BE1C8 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276C928269E76003BE1C8 /* PlayerView.swift */; };
+		D77276CC28270AF1003BE1C8 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276CB28270AF1003BE1C8 /* SearchScreen.swift */; };
+		D77276CE2827B304003BE1C8 /* RadioScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77276CD2827B304003BE1C8 /* RadioScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D77276B82825AE68003BE1C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D77276BA2825AE6A003BE1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77276BD2825AE6A003BE1C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D77276C52825BD4F003BE1C8 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		D77276C72825C705003BE1C8 /* EditingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingScreen.swift; sourceTree = "<group>"; };
+		D77276C928269E76003BE1C8 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		D77276CB28270AF1003BE1C8 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		D77276CD2827B304003BE1C8 /* RadioScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		D77276B52825AE68003BE1C8 /* AppleMusic */ = {
 			isa = PBXGroup;
 			children = (
+				D77276C42825BD3A003BE1C8 /* Views */,
 				D77276B62825AE68003BE1C8 /* AppleMusicApp.swift */,
 				D77276B82825AE68003BE1C8 /* ContentView.swift */,
 				D77276BA2825AE6A003BE1C8 /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				D77276BD2825AE6A003BE1C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D77276C42825BD3A003BE1C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D77276C52825BD4F003BE1C8 /* LibraryView.swift */,
+				D77276C72825C705003BE1C8 /* EditingScreen.swift */,
+				D77276C928269E76003BE1C8 /* PlayerView.swift */,
+				D77276CB28270AF1003BE1C8 /* SearchScreen.swift */,
+				D77276CD2827B304003BE1C8 /* RadioScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77276B92825AE68003BE1C8 /* ContentView.swift in Sources */,
+				D77276C62825BD4F003BE1C8 /* LibraryView.swift in Sources */,
+				D77276C82825C705003BE1C8 /* EditingScreen.swift in Sources */,
+				D77276CE2827B304003BE1C8 /* RadioScreen.swift in Sources */,
+				D77276CA28269E76003BE1C8 /* PlayerView.swift in Sources */,
 				D77276B72825AE68003BE1C8 /* AppleMusicApp.swift in Sources */,
+				D77276CC28270AF1003BE1C8 /* SearchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
